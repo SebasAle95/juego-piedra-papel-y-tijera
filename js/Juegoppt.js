@@ -20,43 +20,43 @@ alert("Javascript elegio:" + opciones[opcionMaquina]);
 
 if(opcionUsuario == piedra)
 {
-  alert("Elegiste Piedra!");
-  if(opcionMaquina == piedra)
-  {
-  	alert("Empate!");
-  }
-  
-  else if(opcionMaquina == papel)
-  {
+alert("Elegiste Piedra!");
+if(opcionMaquina == piedra)
+{
+alert("Empate!");
+}
+
+else if(opcionMaquina == papel)
+{
     alert("Perdiste!");
-  }
-  
-  else if(opcionMaquina == tijera)
-  {
+}
+
+else if(opcionMaquina == tijera)
+{
     alert("Ganaste!");
-  }
+}
 
 }
-  
-  
+
+
 else if(opcionUsuario == papel)
 {
-  alert("Elegiste Papel!");
-  if(opcionMaquina == piedra)
-  {
+alert("Elegiste Papel!");
+if(opcionMaquina == piedra)
+{
     alert("Ganaste!");
-  }
-  
-  else if(opcionMaquina == papel)
-  {
+}
+
+else if(opcionMaquina == papel)
+{
     alert("Empate!");
-  }
-  
-  else if(opcionMaquina == tijera) 
-  {
+}
+
+else if(opcionMaquina == tijera) 
+{
     alert("Perdiste!");
-  }
-  
+}
+
 }
 
 
@@ -66,18 +66,18 @@ else if(opcionUsuario == tijera)
 	alert("Elegiste Tijera!");
 	if(opcionMaquina == piedra)
     {
-      alert("Perdiste!");
+    alert("Perdiste!");
     }
     
     
     else if(opcionMaquina == papel)
     {
-      alert("Ganaste!");	
+    alert("Ganaste!");	
     }
 
     else if(opcionMaquina == tijera)
     { 
-      alert("Empate!");
+    alert("Empate!");
     }
 
 }
@@ -87,4 +87,6 @@ else
 {
 	alert("Debes elegir entre 0,1 ó 2;");
 }
+
+
 
